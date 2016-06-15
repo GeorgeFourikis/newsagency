@@ -17,9 +17,9 @@ ActiveRecord::Schema.define(version: 20160615103309) do
   enable_extension "plpgsql"
 
   create_table "articles", force: true do |t|
-    t.string   "article"
+    t.text     "header"
+    t.text     "article"
     t.string   "place"
-    t.string   "type"
     t.datetime "created_at"
     t.datetime "updated_at"
   end

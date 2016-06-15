@@ -4,6 +4,8 @@
 <%= simple_form_for @article do |f|%>
   <%= f.input :article %>
   <%= f.input :place %>
+  <%= f.input :header %>
+
   <%= f.submit :'Create', class: 'btn btn-danger' %>
 <% end %>
 

@@ -19,13 +19,18 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="#">The News Agency</a> 
+      <a class="navbar-brand" href="/">The News Agency</a> 
     </div>
 
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav">
-        <li class="active"><a href="#">Link <span class="sr-only">(current)</span></a></li>
+        <li>
+        <%= link_to  new_article_path do %>
+        <i class= "glyphicon glyphicon-pencil"></i>
+        New Article!
+        <% end %>
+        </li>
         <li><a href="#">Link</a></li>
         <img width="250" height="100" src="http://i.imgur.com/q3njNXZ.png" title="Logo" />
       </ul>

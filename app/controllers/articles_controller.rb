@@ -17,6 +17,6 @@ class ArticlesController < ApplicationController
   private
 
   def article_params
-    params.require(:article).permit(:article,:place)
+    params.require(:article).permit(:article,:place,:header)
   end
 end
