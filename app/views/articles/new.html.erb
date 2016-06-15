@@ -1,0 +1,11 @@
+<div class = "booyah col-sx-12">
+
+<h1>Here you place your newest information to share with the rest of the world!</h1>
+<%= simple_form_for @article do |f|%>
+  <%= f.input :article %>
+  <%= f.input :place %>
+  <%= f.submit :'Create', class: 'btn btn-danger' %>
+<% end %>
+
+
+</div>

@@ -4,3 +4,19 @@
   border: 1px solid;
   border-color: #e4e4e4 #bebebd #bebebd #e4e4e4;
 }
+
+body{
+  background: url('/assets/pattern.jpg');
+  font-family: Consolas, "Andale Mono WT", "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Liberation Mono", "Nimbus Mono L", Monaco, "Courier New", Courier, monospace;
+
+}
+
+.navbar.navbar-inverse {
+  box-shadow: 3px 3px 3px rgba(153,186,196,0.7);
+}
+
+.navbar-inverse .navbar-brand {
+  color: #D17524;
+  font-family: Rockwell, "Courier Bold", Courier, Georgia, Times, "Times New Roman", serif;
+  font-weight: 800;
+  }
